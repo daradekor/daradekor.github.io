@@ -164,15 +164,12 @@
   /**
    * Preloader
    */
-  // let preloader = select('#preloader');
-  // if (preloader) {
-  //   window.addEventListener('load', () => {
-  //     preloader.remove()
-  //   });
-  // }
-  $(document).ready(function () {
-    $(".preloader").fadeOut();
-  })
+   let preloader = select('.preloader');
+   if (preloader) {
+     window.addEventListener('load', () => {
+       preloader.remove()
+     });
+   }
   /**
 * Hero type effect
 */
